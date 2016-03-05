@@ -1,0 +1,331 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A26DE0C81C8B1F9B0043F707 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DE0C71C8B1F9B0043F707 /* AppDelegate.swift */; };
+		A26DE0CA1C8B1F9B0043F707 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DE0C91C8B1F9B0043F707 /* ViewController.swift */; };
+		A26DE0CD1C8B1F9B0043F707 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26DE0CB1C8B1F9B0043F707 /* Main.storyboard */; };
+		A26DE0CF1C8B1F9B0043F707 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A26DE0CE1C8B1F9B0043F707 /* Assets.xcassets */; };
+		A26DE0D21C8B1F9B0043F707 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A26DE0D01C8B1F9B0043F707 /* LaunchScreen.storyboard */; };
+		A26DE0DA1C8B23680043F707 /* pizza-de-pepperoni-comida-pan-y-pasta-pintado-por-thomasr-9872745.jpg in Resources */ = {isa = PBXBuildFile; fileRef = A26DE0D91C8B23680043F707 /* pizza-de-pepperoni-comida-pan-y-pasta-pintado-por-thomasr-9872745.jpg */; };
+		A26DE0DC1C8B2C910043F707 /* TamanoClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DE0DB1C8B2C910043F707 /* TamanoClass.swift */; };
+		A26DE0DE1C8B37DC0043F707 /* MasaClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DE0DD1C8B37DC0043F707 /* MasaClass.swift */; };
+		A26DE0E01C8B414D0043F707 /* Maxiqueso_PEQ222.png in Resources */ = {isa = PBXBuildFile; fileRef = A26DE0DF1C8B414D0043F707 /* Maxiqueso_PEQ222.png */; };
+		A26DE0E21C8B41D60043F707 /* QuesoClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A26DE0E11C8B41D60043F707 /* QuesoClass.swift */; };
+		A26DE0E41C8B439F0043F707 /* Masa.png in Resources */ = {isa = PBXBuildFile; fileRef = A26DE0E31C8B439F0043F707 /* Masa.png */; };
+		A2E346CE1C8B4DCE00467109 /* IngredientesClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E346CD1C8B4DCE00467109 /* IngredientesClass.swift */; };
+		A2E346D01C8B757C00467109 /* VistaFinal.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E346CF1C8B757C00467109 /* VistaFinal.swift */; };
+		A2E346D21C8B7C9A00467109 /* Pizza.png in Resources */ = {isa = PBXBuildFile; fileRef = A2E346D11C8B7C9A00467109 /* Pizza.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A26DE0C41C8B1F9B0043F707 /* Quiero Pizza.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quiero Pizza.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A26DE0C71C8B1F9B0043F707 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A26DE0C91C8B1F9B0043F707 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A26DE0CC1C8B1F9B0043F707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A26DE0CE1C8B1F9B0043F707 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A26DE0D11C8B1F9B0043F707 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A26DE0D31C8B1F9B0043F707 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A26DE0D91C8B23680043F707 /* pizza-de-pepperoni-comida-pan-y-pasta-pintado-por-thomasr-9872745.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "pizza-de-pepperoni-comida-pan-y-pasta-pintado-por-thomasr-9872745.jpg"; sourceTree = "<group>"; };
+		A26DE0DB1C8B2C910043F707 /* TamanoClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TamanoClass.swift; sourceTree = "<group>"; };
+		A26DE0DD1C8B37DC0043F707 /* MasaClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasaClass.swift; sourceTree = "<group>"; };
+		A26DE0DF1C8B414D0043F707 /* Maxiqueso_PEQ222.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Maxiqueso_PEQ222.png; sourceTree = "<group>"; };
+		A26DE0E11C8B41D60043F707 /* QuesoClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuesoClass.swift; sourceTree = "<group>"; };
+		A26DE0E31C8B439F0043F707 /* Masa.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Masa.png; sourceTree = "<group>"; };
+		A2E346CD1C8B4DCE00467109 /* IngredientesClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IngredientesClass.swift; sourceTree = "<group>"; };
+		A2E346CF1C8B757C00467109 /* VistaFinal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VistaFinal.swift; sourceTree = "<group>"; };
+		A2E346D11C8B7C9A00467109 /* Pizza.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Pizza.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A26DE0C11C8B1F9B0043F707 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A26DE0BB1C8B1F9B0043F707 = {
+			isa = PBXGroup;
+			children = (
+				A26DE0C61C8B1F9B0043F707 /* Quiero Pizza */,
+				A26DE0C51C8B1F9B0043F707 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A26DE0C51C8B1F9B0043F707 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A26DE0C41C8B1F9B0043F707 /* Quiero Pizza.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A26DE0C61C8B1F9B0043F707 /* Quiero Pizza */ = {
+			isa = PBXGroup;
+			children = (
+				A26DE0C71C8B1F9B0043F707 /* AppDelegate.swift */,
+				A26DE0C91C8B1F9B0043F707 /* ViewController.swift */,
+				A26DE0CB1C8B1F9B0043F707 /* Main.storyboard */,
+				A26DE0D91C8B23680043F707 /* pizza-de-pepperoni-comida-pan-y-pasta-pintado-por-thomasr-9872745.jpg */,
+				A26DE0DF1C8B414D0043F707 /* Maxiqueso_PEQ222.png */,
+				A26DE0E31C8B439F0043F707 /* Masa.png */,
+				A2E346D11C8B7C9A00467109 /* Pizza.png */,
+				A26DE0CE1C8B1F9B0043F707 /* Assets.xcassets */,
+				A26DE0D01C8B1F9B0043F707 /* LaunchScreen.storyboard */,
+				A26DE0D31C8B1F9B0043F707 /* Info.plist */,
+				A26DE0DB1C8B2C910043F707 /* TamanoClass.swift */,
+				A26DE0DD1C8B37DC0043F707 /* MasaClass.swift */,
+				A26DE0E11C8B41D60043F707 /* QuesoClass.swift */,
+				A2E346CD1C8B4DCE00467109 /* IngredientesClass.swift */,
+				A2E346CF1C8B757C00467109 /* VistaFinal.swift */,
+			);
+			path = "Quiero Pizza";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A26DE0C31C8B1F9B0043F707 /* Quiero Pizza */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A26DE0D61C8B1F9B0043F707 /* Build configuration list for PBXNativeTarget "Quiero Pizza" */;
+			buildPhases = (
+				A26DE0C01C8B1F9B0043F707 /* Sources */,
+				A26DE0C11C8B1F9B0043F707 /* Frameworks */,
+				A26DE0C21C8B1F9B0043F707 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quiero Pizza";
+			productName = "Quiero Pizza";
+			productReference = A26DE0C41C8B1F9B0043F707 /* Quiero Pizza.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A26DE0BC1C8B1F9B0043F707 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Equih;
+				TargetAttributes = {
+					A26DE0C31C8B1F9B0043F707 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = UJZZ365C8J;
+					};
+				};
+			};
+			buildConfigurationList = A26DE0BF1C8B1F9B0043F707 /* Build configuration list for PBXProject "Quiero Pizza" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A26DE0BB1C8B1F9B0043F707;
+			productRefGroup = A26DE0C51C8B1F9B0043F707 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A26DE0C31C8B1F9B0043F707 /* Quiero Pizza */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A26DE0C21C8B1F9B0043F707 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A26DE0D21C8B1F9B0043F707 /* LaunchScreen.storyboard in Resources */,
+				A26DE0DA1C8B23680043F707 /* pizza-de-pepperoni-comida-pan-y-pasta-pintado-por-thomasr-9872745.jpg in Resources */,
+				A26DE0CF1C8B1F9B0043F707 /* Assets.xcassets in Resources */,
+				A26DE0E41C8B439F0043F707 /* Masa.png in Resources */,
+				A26DE0CD1C8B1F9B0043F707 /* Main.storyboard in Resources */,
+				A2E346D21C8B7C9A00467109 /* Pizza.png in Resources */,
+				A26DE0E01C8B414D0043F707 /* Maxiqueso_PEQ222.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A26DE0C01C8B1F9B0043F707 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E346D01C8B757C00467109 /* VistaFinal.swift in Sources */,
+				A26DE0CA1C8B1F9B0043F707 /* ViewController.swift in Sources */,
+				A26DE0DC1C8B2C910043F707 /* TamanoClass.swift in Sources */,
+				A26DE0DE1C8B37DC0043F707 /* MasaClass.swift in Sources */,
+				A2E346CE1C8B4DCE00467109 /* IngredientesClass.swift in Sources */,
+				A26DE0E21C8B41D60043F707 /* QuesoClass.swift in Sources */,
+				A26DE0C81C8B1F9B0043F707 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A26DE0CB1C8B1F9B0043F707 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26DE0CC1C8B1F9B0043F707 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A26DE0D01C8B1F9B0043F707 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A26DE0D11C8B1F9B0043F707 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A26DE0D41C8B1F9B0043F707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A26DE0D51C8B1F9B0043F707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A26DE0D71C8B1F9B0043F707 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quiero Pizza/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Equih.Quiero-Pizza";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A26DE0D81C8B1F9B0043F707 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Quiero Pizza/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Equih.Quiero-Pizza";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A26DE0BF1C8B1F9B0043F707 /* Build configuration list for PBXProject "Quiero Pizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26DE0D41C8B1F9B0043F707 /* Debug */,
+				A26DE0D51C8B1F9B0043F707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A26DE0D61C8B1F9B0043F707 /* Build configuration list for PBXNativeTarget "Quiero Pizza" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A26DE0D71C8B1F9B0043F707 /* Debug */,
+				A26DE0D81C8B1F9B0043F707 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A26DE0BC1C8B1F9B0043F707 /* Project object */;
+}
